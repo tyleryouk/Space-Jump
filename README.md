@@ -1,4 +1,4 @@
-Space Up
+Underwater Jump
 ========
 
 Space Up is an endless runner game written in Swift using SpriteKit framework. It requires iOS 8.3 and above.
