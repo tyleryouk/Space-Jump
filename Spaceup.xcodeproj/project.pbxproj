@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36E275A41BF3FC0700E28ED2 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E275A31BF3FC0700E28ED2 /* GoogleMobileAds.framework */; settings = {ASSET_TAGS = (); }; };
+		36E275A41BF3FC0700E28ED2 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E275A31BF3FC0700E28ED2 /* GoogleMobileAds.framework */; };
 		36E275A61BF3FC2B00E28ED2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E275A51BF3FC2B00E28ED2 /* AdSupport.framework */; };
 		36E275A81BF3FC3700E28ED2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E275A71BF3FC3700E28ED2 /* AudioToolbox.framework */; };
 		36E275AA1BF3FC4B00E28ED2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E275A91BF3FC4B00E28ED2 /* CoreGraphics.framework */; };
@@ -1034,15 +1034,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.5.2",
 				);
 				INFOPLIST_FILE = SpaceUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TylerYouk.SpaceJump;
 				PRODUCT_NAME = "Space Jump";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "4d35c032-15a3-4d6f-af40-e1d25caab60d";
 				"Texture Atlas Maximum Size" = 4096x4096;
 			};
 			name = Debug;
@@ -1053,15 +1055,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.5.2",
 				);
 				INFOPLIST_FILE = SpaceUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TylerYouk.SpaceJump;
 				PRODUCT_NAME = "Space Jump";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "266bea7c-a81d-405e-a581-82e104b754aa";
 				"Texture Atlas Maximum Size" = 4096x4096;
 			};
 			name = Release;
